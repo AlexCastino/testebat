@@ -8,7 +8,7 @@ echo '%nao%'
 git add .
 git commit -m "'%comentario%'"
 set /p resposta="Deseja subir os arquivos acima em seu repositorio? Sim= s Não= n : "
-if %resposta%==%sim%(
+if %resposta%==%sim% (
 git push
 echo foi)
 pause
