@@ -3,8 +3,6 @@ set /p comentario="Digite o comentario: "
 set sim=s
 set nao=n
 echo '%comentario%'
-echo '%sim%'
-echo '%nao%'
 echo git add .
 echo git commit -m "'%comentario%'"
 echo git push
@@ -46,12 +44,6 @@ echo .
 echo .
 echo .
 echo .
-echo .
-echo .
-echo .
-echo .
-echo .
-echo .
 echo Executando comando git push
 echo .
 echo .
@@ -64,20 +56,7 @@ echo .
 echo .
 echo .
 echo .
-echo .
-echo .
-echo .
-echo .
-echo .
-echo .
-echo .
 git commit -m "'%comentario%'"
-echo .
-echo .
-echo .
-echo .
-echo .
-echo .
 echo .
 echo .
 echo .
