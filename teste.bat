@@ -13,11 +13,83 @@ set /p resposta="Deseja executar os comandos acima? Sim= s Nao= n : "
 if %resposta%==%sim% (
 echo Executando comando git add .
 git add .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
 
-echo Color 1F Executando comando git commit -m "'%comentario%'" 
+echo Executando comando git commit -m "'%comentario%'" 
 git commit -m "'%comentario%'"
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
 echo Executando comando git push
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
 git commit -m "'%comentario%'"
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
+echo .
 echo Comandos concluidos)
 pause
 if %resposta%!='s'(echo Tchau)
