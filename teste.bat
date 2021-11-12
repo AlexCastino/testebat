@@ -56,7 +56,7 @@ echo .
 echo .
 echo .
 echo .
-git commit -m "'%comentario%'"
+git push
 echo .
 echo .
 echo .
