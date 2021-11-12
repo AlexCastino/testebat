@@ -1,7 +1,7 @@
 @echo off
 set /p comentario="Digite o comentario: "
-set /a sim="s"
-set /a nao='n'
+set sim="s"
+set nao='n'
 echo '%comentario%'
 echo '%sim%'
 echo '%nao%'
