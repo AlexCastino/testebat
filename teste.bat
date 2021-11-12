@@ -11,10 +11,14 @@ echo git push
 
 set /p resposta="Deseja executar os comandos acima? Sim= s Nao= n : "
 if %resposta%==%sim% (
+echo Executando comando git add .
 git add .
+
+echo ^<ESC^>[92m [92mExecutando comando git commit -m "'%comentario%'"[0m 
 git commit -m "'%comentario%'"
-git push
-echo foi)
+echo Executando comando git push
+git commit -m "'%comentario%'"
+echo Comandos concluidos)
 pause
 if %resposta%!='s'(echo Tchau)
 pause
