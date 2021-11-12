@@ -5,10 +5,14 @@ set nao=n
 echo '%comentario%'
 echo '%sim%'
 echo '%nao%'
+echo git add .
+echo git commit -m "'%comentario%'"
+echo git push
+
+set /p resposta="Deseja executar os comandos acima? Sim= s Nao= n : "
+if %resposta%==%sim% (
 git add .
 git commit -m "'%comentario%'"
-set /p resposta="Deseja subir os arquivos acima em seu repositorio? Sim= s Não= n : "
-if %resposta%==%sim% (
 git push
 echo foi)
 pause
