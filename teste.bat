@@ -14,7 +14,7 @@ if %resposta%==%sim% (
 echo Executando comando git add .
 git add .
 
-echo ^<ESC^>[92m [92m Executando comando git commit -m "'%comentario%'" [0m 
+echo Color 1F Executando comando git commit -m "'%comentario%'" 
 git commit -m "'%comentario%'"
 echo Executando comando git push
 git commit -m "'%comentario%'"
